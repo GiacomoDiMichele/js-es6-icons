@@ -124,7 +124,6 @@ icons.forEach((icon) => {
     //destrutturo e mi prendo le proprietò per formare l'icona nell'ordine di fontawesome
     const {name, prefix, family} = icon;
     //creo con append un blocco da inserire nell html per rendere visibili poi le icone
-    const i_icons_type
     $('#icons-container').append(`
     <div>
         <i class="${family} ${prefix}${name}"></i>
